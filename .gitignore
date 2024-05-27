@@ -1,0 +1,17 @@
+# Ignore compiled binaries
+*.exe
+*.dll
+
+# Ignore dependencies
+/node_modules
+/bower_components
+
+# Ignore log files and directories
+/images
+*.log
+
+# Ignore environment-specific files
+.env
+
+# Ignore files containing sensitive information
+secrets.txt

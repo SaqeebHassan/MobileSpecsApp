@@ -1,0 +1,27 @@
+.mobile-nav a {
+  position: relative;
+}
+.mobile-nav a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: -5px;
+  background-color: #3b76fe;
+  transition: all 0.3s ease;
+}
+.mobile-nav a:hover::before {
+  width: 100%;
+}
+
+.mobile-nav li {
+  margin: 0px 4px;
+}
+
+.model-card {
+  width: 30%;
+}
+
+.mobile-nav::-webkit-scrollbar {
+  display: none;
+}
